@@ -4,5 +4,5 @@ import ReactDOM from "react-dom/client";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-    <h1>Mon application React fonctionne !</h1>
+    <h1>Bonjour depuis React !</h1>
 );
