@@ -17,7 +17,8 @@ if __name__ == "__main__":
     
 @app.route("/info")
 def info():
-    return
+    return {
         "app": "Flask Render",
         "student": "Wesley POLLET",
         "version": "v1"
+    }
